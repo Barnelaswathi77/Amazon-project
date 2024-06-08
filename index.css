@@ -1,0 +1,100 @@
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+.row1, .row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.row1 {
+    height: 60px;
+    padding: 0 15px;
+}
+.row2 {
+    height: 40px;
+    padding: 0 15px;
+}
+.row1 .col1 img, .row1 .col2, .row1 .col3, .row1 .col5, .row1 .col6, .row1 .col7, .row1 .col8, 
+.row2 .cola, .row2 .colb, .row2 .colc, .row2 .cold, .row2 .cole, .row2 .colf, .row2 .colg {
+    flex: 1;
+}
+.row1 .col1 img {
+    height: 55px;
+    width: auto;
+}
+.row1 p, .row2 p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.row1 .col3 {
+    flex: 4;
+}
+.row1 .col5, .row1 .col6, .row1 .col7, .row1 .col8 {
+    flex: 1;
+}
+.row3 img, .row4 .cols img, .row5 .colr img, .row6 .colu img, .row7 .colx img, .row8 img {
+    width: 100%;
+    height: auto;
+}
+.row4, .row5, .row6, .row7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cols, .colr, .colu, .colx {
+    width: 100%;
+    margin: 5px 0;
+}
+.row3, .row4, .row5, .row6, .row7, .row8 {
+    width: 100%;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .cols, .colr, .colu, .colx {
+        width: 48%;
+        margin: 1%;
+    }
+}
+@media (min-width: 1024px) {
+    .cols, .colr, .colu, .colx {
+        width: 23%;
+        margin: 1%;
+    }
+}
+.row9 {
+    height: 50px;
+    width: 100%;
+    float: left;
+    border: solid 1px blue;
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+}
+.row9 p {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+
+
+
